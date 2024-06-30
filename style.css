@@ -1,0 +1,88 @@
+body{font-family: 'Century Gothic', calibri, serif;
+    font-size: 13px;
+    margin: 0px;
+    padding-top: 0px;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+header{
+    height: 100px;
+}
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #c4c4c4;
+    border-top: 2px solid #bbb
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{
+    width: 100px;
+    background-color: #444;
+
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 20px;
+    color: #bbb;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navbar{
+    display: table;
+    margin: 0;
+}
+
+.menu_form:hover{
+    border-top: 5px solid #528569;
+    background-color: rgba(60, 200, 130, 0.15);
+}
+.menu_ind.menu_form:hover{
+    border-top: 5px  solid #856752;
+    background-color: rgba(241, 211, 79, 0.15);
+
+}
+.menu_loi:hover{
+    border-top: 5px solid #00268d;
+    background-color: rgba(0, 96, 117, 0.15);
+}
+.menu_con{
+    border-top: 5px solid #856752;
+    background-color: rgba(000, 112, 192, 0.15);
+
+
+}
+.menu_exp:hover{
+border-top: 5px solid #856752;
+background-color: rgba(228, 77, 38, 0.15)
+
+
+}
+@media and(max-width:780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 58px;
+        margin: 20px 0px 0px;
+    }
+    nav li a {
+     font-size: 12px;
+     padding: 10px;   
+    }
+   nav li: :hover a {
+    padding: 5px 10px 10px 10px;
+   } 
+}
